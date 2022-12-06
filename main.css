@@ -46,6 +46,7 @@ body {
   .about__image {
     width: 500px;
   }
+ 
    
   .about__sun-image {
     width: 100px;
@@ -73,6 +74,13 @@ body {
     background: url('img/back.png') no-repeat;
     background-position: center;
     background-size: cover;
+    position: relative;
+  }
+  .orb-canvas{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
   }
   .about h1 {
     font-size: 76px;
